@@ -1,0 +1,33 @@
+*{margin: 0;
+padding: 0;}
+table {
+    margin: 1rem auto;
+    border-collapse: collapse; 
+    width: 80%; 
+  }
+th,td{
+    border: 0.2rem solid black;
+    text-align: center;
+    padding: 0.2rem;
+    box-sizing: border-box;
+}
+button{
+    border: 0;
+    width: 6rem;
+    height: 2rem;
+background-color: skyblue;
+cursor: pointer;
+}
+button:hover{
+    background-color: rgb(129, 189, 212);
+}
+button:active{
+    background-color: rgb(102, 206, 247);
+}
+#buttons{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin: 1rem auto;
+    width: fit-content;
+}
